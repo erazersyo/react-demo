@@ -1,0 +1,46 @@
+.navbar-container {
+  font-size: 20px;
+  padding: 30px 30px;
+}
+
+.name-outer-container {
+  float: left;
+}
+
+.name-inner-container {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px 14px 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.navbar li {
+  float: right;
+}
+
+.navbar li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar li a:hover {
+  color: grey;
+}
+
+.navbar-bottom-underline {
+  border-bottom: 1px solid lightgray;
+}
